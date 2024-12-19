@@ -15,9 +15,9 @@ Make sure the three folders and two files are in the same directory, or you coul
 
 And make sure you run the file system using:
 python3 file_system.py &
-BEFORE you create any files in the watched folder. If you create the file in the watch folder before running the program in the background it will not be able to be logged. That also goes for if you kill the process and then run it again. You won't be able to make more logs but you can still recover since it is a different program. It can only focus on one .txt file at a time so if you make a new .txt file and then try to make changes in the old text file then the logs won't be saved to the .DAT file. When you make a new .txt file, that file is in focus. If you want to get focus back onto the old file, you would have to copy and paste the file contents into a new file created while the file system is active.
+BEFORE you create any files in the watched folder. If you create the file in the watch folder before running the program in the background it will not be able to be logged. That also goes for if you kill the process and then run it again. You won't be able to make more logs but you can still recover since it is a different program. It can only focus on one .txt file at a time. So, if you make a new .txt file and then try to make changes in the old text file, then the logs won't be saved to the .DAT file. When you make a new .txt file, that file is in focus. If you want to get focus back onto the old file, you would have to copy and paste the file contents into a new file created while the file system is active.
 
-Speaking of the recovery program, you can run it by typing:
+you can run the recovery program it by typing:
 
 python3 recreate.py (.DAT journal) "(time stamp)"
 
